@@ -1,0 +1,36 @@
+{
+  "name": "@pempal-tracker/shared-types",
+  "version": "1.0.0-alpha.1",
+  "description": "Shared TypeScript types and Rust bindings for PEMPal",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "echo \"No tests yet\"",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pempal-tracker/shared-types.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "@pempal-tracker:registry": "https://npm.pkg.github.com"
+  },
+  "keywords": [
+    "pempal",
+    "types",
+    "typescript",
+    "health",
+    "pem"
+  ],
+  "author": "PEMPal",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
