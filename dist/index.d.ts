@@ -5,3 +5,4 @@
  */
 export * from './core/data-source';
 export * from './tenant';
+export * from './ui-types';

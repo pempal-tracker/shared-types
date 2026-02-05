@@ -7,3 +7,5 @@
 export * from './core/data-source';
 // Multi-tenancy types
 export * from './tenant';
+// UI component types
+export * from './ui-types';
